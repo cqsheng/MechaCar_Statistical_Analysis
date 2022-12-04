@@ -12,3 +12,16 @@
     
 ![](/images/Part21.png)
 ![](/images/Part22.png)
+
+## T-Tests on Suspension Coils
+    The t test done on all manufacturing lots is more of a sanity test, since the entire population was used in the test the p value is 1, giving us no evidence to reject the null hypothesis that their mean is equal to the population mean. 
+    The results for the 3 lots taken indivdually picutred below provides different results, for lot 1 and lot 2 the p-value is well below 0.05, so there is sufficient evidence to reject the null hypothesis of the lot 1 and lot 2 means being equal to the population mean. However for lot 3 the p-value is over 0.15, so we do not have sufficient evidence to reject the null hypothesis, so the lot 3 mean and the population mean are statiscally similar.
+    
+![](/images/Part3.png)
+
+## Study Design: MechaCar vs Competition
+    There are many metrics we can use to compare MechaCar to the competition, many people care about the fuel efficiency of vehicles when looking for cars to purchase so I would recommend a study focusing on this first.
+    The metric to be tested would be if there are any statically significant difference between the fuel efficiency of mechacars and the competition using mpg data from both the city and highway performances.
+    The null hypothesis would be there is no difference between the fuel efficiency of mechacars and the competition with the alternative hypothesis being that there is a difference between the fuel efficiency.
+    The test used would be a two sample t-test, using one sample from fuel efficiency of mechacars, and another sample with the fuel efficiency of the competition, the t-test would determine if there are any differences between their fuel efficiency, done once for city mpg and another for highway mpg.
+    We would just need the data regarding the fuel efficiency from our own vehicles which we should have, and the fuel efficiency of the competition which would be publicly avaliable and provided by the competition for their customers on their website and advertisements.
